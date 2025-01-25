@@ -1,0 +1,16 @@
+package com.pixisky.app.ui.navigation
+
+/**
+ * Interface to describe the navigation destinations for the app
+ */
+abstract class NavigationDestination {
+    /**
+     * Unique name to define the path for a composable
+     */
+    abstract val route: String
+
+    /**
+     * String resource id to that contains title to be displayed for the screen.
+     */
+    abstract val titleRes: Int
+}
